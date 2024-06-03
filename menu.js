@@ -33,6 +33,8 @@ document.addEventListener('DOMContentLoaded',()=>{
     }).then((resolvedata)=>{
         console.log(resolvedata);
        thankyouFnc(resolvedata);
+    }).catch((error)=>{
+console.log('An Error has occured!!',error);
     });
 });
 
